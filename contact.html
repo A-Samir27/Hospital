@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arogya Seva Hospital</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="Src/3.png" alt="Arogya Seva Hospital Logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="appointment.html">Appointment</a></li>
+                <li><a href="doctors.html">Doctor Info</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="about.html">About Us</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contact Form Section -->
+    <section class="contact-form">
+        <h1>Contact Us</h1>
+        <form action="#" method="post">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Contact:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Arogya Seva Hospital. All rights reserved.</p>
+    </footer>
+
+    <style>
+        /* Contact Form Styling */
+        .contact-form {
+            margin-top: 20px;
+            padding: 40px; /* Increased padding */
+            background-color: #e0f7fa; /* Changed background color */
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 430px; /* Increased width */
+            margin: 50px auto; /* Center form */
+        }
+
+        .contact-form h1 {
+            color: #00796b;
+            margin-bottom: 20px;
+        }
+
+        .contact-form form {
+            display: grid;
+            grid-gap: 15px;
+        }
+
+        .contact-form label {
+            font-weight: bold;
+            color: #00796b;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px; /* Increased padding */
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .contact-form button {
+            background-color: #009688; /* Changed button color */
+            color: #fff;
+            padding: 15px; /* Increased padding */
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px; /* Larger font size */
+        }
+
+        .contact-form button:hover {
+            background-color: #00796b; /* Darker hover color */
+        }
+
+        /* Footer Styling */
+        footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: #00796b;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        body {
+            margin: 0;
+            padding-bottom: 50px; /* Ensure footer doesn't overlap content */
+        }
+    </style>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
